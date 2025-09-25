@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services — Craftnet Solutions</title>
+  <meta name="description" content="Explore Craftnet Solutions services — network upgrades, security enhancements, and employee training for small businesses.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="CraftNet Solutions Logo">
+      </a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">CraftNet Solutions</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="support.html">Client Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Our Services</h1>
+
+
+    <p>
+      We specialise in 
+      <span class="tooltip" data-tip="Faster connections, reduced downtime, and scalability.">Network Upgrades</span>, 
+      <span class="tooltip" data-tip="Protect sensitive data with SSL, firewalls, and encryption.">Security Enhancements</span>, 
+      and <span class="tooltip" data-tip="Workshops to train staff on best IT practices.">Employee Training</span>.
+    </p>
+
+   
+    <article>
+      <h2>Network Upgrades</h2>
+      <img src="images/service-network.jpg" alt="Network servers and cabling">
+      <p>Boost performance and reliability with tailored upgrades for your business network.</p>
+      <ul>
+        <li>Faster data transfers</li>
+        <li>Improved connectivity</li>
+        <li>Cloud-ready infrastructure</li>
+      </ul>
+    </article>
+
+    <article>
+      <h2>Security Enhancements</h2>
+      <img src="images/cyber-security.jpg" alt="Cybersecurity digital lock">
+      <p>Protect your business against growing cyber threats with robust security solutions.</p>
+      <ul>
+        <li>Firewall and SSL implementation</li>
+        <li>Data encryption and backups</li>
+        <li>Ongoing security monitoring</li>
+      </ul>
+     
+      <a href="#popup1" class="btn primary">Learn More</a>
+    </article>
+
+    <article>
+      <h2>Employee Training</h2>
+      <img src="images/employee-training.jpg" alt="Team learning IT skills">
+      <p>Educate your team on best practices for cybersecurity and IT systems.</p>
+      <ul>
+        <li>Workshops and hands-on sessions</li>
+        <li>Customised training material</li>
+        <li>Virtual and on-site options</li>
+      </ul>
+    </article>
+
+   
+    <div id="popup1" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>More About Our Security Services</h2>
+        <p>Craftnet Solutions provides firewalls, SSL certificates, encryption, and real-time monitoring to ensure your small business remains protected against ransomware, malware,
+             phishing, and data breaches.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Craftnet Solutions — All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

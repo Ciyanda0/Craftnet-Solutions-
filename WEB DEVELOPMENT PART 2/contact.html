@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Craftnet Solutions</title>
+  <meta name="description" content="Contact Craftnet Solutions for IT services including network upgrades, security enhancements, and staff training.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">CraftNet Solutions</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="support.html">Client Support</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you. Reach out to Craftnet Solutions today.</p>
+
+    <form>
+      <label for="name">Full name</label>
+      <input id="name" type="text" required>
+
+      <label for="email">Email</label>                  
+      <input id="email" type="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" required></textarea>
+
+      <button type="submit" class="btn primary">Send Inquiry</button>
+    </form>
+
+    <a href="#popup-contact" class="btn primary">View Business Hours</a>
+    <div id="popup-contact" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Business Hours</h2>
+        <p>Monday – Friday: 9:00 – 17:00<br>Saturday & Sunday: Closed</p>
+        <p>Email:Craftnet solutions@gmail.com</p>
+         <p>+27 67 555 2930</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Craftnet Solutions — All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Support — Craftnet Solutions</title>
+  <meta name="description" content="Find support and answers to common client questions at Craftnet Solutions.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">CraftNet Solutions</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="support.html" class="active">Client Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Client Support & FAQ</h1>
+
+    <details>
+      <summary>Why do I need a professional website?</summary>
+      <p>A website is the cornerstone of your digital presence. Without one, businesses lose credibility and visibility.</p>
+    </details>
+
+    <details>
+      <summary>What security measures do you use?</summary>
+      <p>We apply <span class="tooltip" data-tip="SSL = Secure Sockets Layer for encryption">SSL</span> certificates, firewalls, and data protection protocols.</p>
+    </details>
+
+    <a href="#popup-support" class="btn primary">Learn More About Support</a>
+    <div id="popup-support" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Our Client Support</h2>
+        <p>We provide ongoing support, including troubleshooting, monitoring, and training refreshers.
+             Our team ensures that your IT systems remain secure and reliable.
+            This helps with keeping technology sustainable at all times.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Craftnet Solutions — All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
