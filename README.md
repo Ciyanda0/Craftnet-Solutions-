@@ -1,114 +1,254 @@
-# Craftnet-Solutions-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CraftNet Solutions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CraftNet Solutions | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <h1>CraftNet Solutions</h1>
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#support">Client Support</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <hr>
+ 
+<header class="site-header">
+  <div class="container header-inner">
+    
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="CraftNet Solutions Logo">
+    </a>
+
+    
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="support.html">Client Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<main>
-  <!-- HOME SECTION -->
-  <section id="home">
-    <h2>Welcome</h2>
-    <p>We help small businesses with modern IT: network upgrades, security enhancements, and staff training.</p>
-    <img src="https://images.unsplash.com/photo-1581092580490-1b831c367e7b" alt="IT Solutions" title="IT Solutions" width="600">
-    <img src="https://images.unsplash.com/photo-1581091012184-f0e3d3dc6574" alt="Networking" title="Networking Solutions" width="600">
-    <h3>Highlights</h3>
+
+  <section class="hero">
+    
+    <div class="hero-content">
+
+    <h2 class="fade-text">📢 Welcome to CraftNet Solutions your Partner in IT Excellence</h2>
+    
+    <p>We modernise IT infrastructure, strengthen cyber defences, and empower employees with training that works.</p>
+    <a href="services.html" class="btn primary">Explore Our Services</a>
+  </div>
+</section>
+
+      
+
+  <section class="container">
+    <h2>Why Choose CraftNet Solutions?</h2>
     <ul>
-      <li>Fast, secure, scalable solutions</li>
-      <li>Friendly support</li>
-      <li>Tailored for SMEs</li>
+      <li>We as craftnet specialise for <span class="tooltip" data-tip="Small and Medium Enterprises">SMEs</span>.</li>
+      <li> We are proven to be expertise in networks, cybersecurity, and employee training.</li>
+      <li> We offer End-to-end support: setup → monitoring → maintenance of systems, hardware and software.</li>
+      <li>We always have and offer scalable solutions designed to grow with your business.</li>
     </ul>
+    <a href="#about-popup" class="btn primary">Learn More About Us</a>
   </section>
 
-  <!-- ABOUT US SECTION -->
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Learn more about CraftNet Solutions and what drives us forward.</p>
-    <img src="https://images.unsplash.com/photo-1581090700227-5b161e5b1cfa" alt="Team working on IT" title="Our Team" width="600">
-    <h3>Our Mission</h3>
-    <p>Our mission is to modernize infrastructure and protect data for growing businesses.</p>
-    <h3>Vision</h3>
-    <p>Reliable tech for every small business.</p>
-    <h3>Values</h3>
+
+  <div id="about-popup" class="popup">
+    <div class="popup-content">
+      <a href="#" class="close">&times;</a>
+      <h2>About CraftNet</h2>
+      <p>CraftNet Solutions was founded to bridge the technology gap for small and medium businesses. 
+        ,our mission is to make IT services affordable, accessible, and tailored for growing companies. 
+        ,with a focus on client trust and long-term partnerships, we provide solutions that align with business goals.</p>
+    </div>
+  </div>
+
+
+  <footer class="site-footer">
+    <p>&copy; 2025 CraftNet Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CraftNet Solutions | About Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">CraftNet Solutions</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="support.html">Client Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <h2>Our Story</h2>
+    <p>At CraftNet, we believe technology should be a driver of growth, not a barrier.
+       Founded in 2020, we have supported dozens of SMEs by designing, implementing, and maintaining IT solutions that are simple, reliable,effective and sustainable.</p>
+    <p>Our approach is built on three values: <strong>Trust</strong>, <strong>Innovation</strong>, and <strong>Support</strong>.</p>
+  </section>
+
+  <section class="container">
+  <h2>Mission, Vision, and Values</h2>
+  <div class="content-wrapper">
     <ul>
-      <li>Trust</li>
-      <li>Clarity</li>
-      <li>Reliability</li>
+      <li><strong>Mission:</strong> To provide SMEs with secure, affordable, and future-ready IT solutions.</li>
+      <li><strong>Vision:</strong> To be the trusted IT partner for small and medium businesses across Africa.</li>
+      <li><strong>Values:</strong> Integrity, reliability, innovation, and customer focus.</li>
     </ul>
-  </section>
+    <img src="images/coding website.jpg" alt="coding" class="side-image">
+  </div>
+  <a href="#vision-popup" class="btn primary">Read More</a>
+</section>
 
-  <!-- SERVICES SECTION -->
-  <section id="services">
-    <h2>Services</h2>
-    <p>Explore our core IT services designed to help your business grow safely and efficiently.</p>
+<div id="vision-popup" class="popup">
+  <div class="popup-content">
+    <a href="#" class="close">&times;</a>
+    <h2>Our Philosophy</h2>
+          <p>We know SMEs face unique challenges: limited budgets, lack of dedicated IT teams, and increasing cyber threats. Our philosophy is to simplify technology and empower businesses to focus on growth while we handle IT complexity.</p>
+  </div>
+</div>
 
-    <section>
-      <h3>Network Upgrades</h3>
-      <img src="https://images.unsplash.com/photo-1581091214406-4f3b41d88e39" alt="Network Upgrades" title="Network Upgrades" width="600">
-      <p>Improve speed and reliability across your office.</p>
-    </section>
 
-    <section>
-      <h3>Security Enhancements</h3>
-      <img src="https://images.unsplash.com/photo-1581091010373-3f6320c1b23f" alt="Security Enhancements" title="Security Enhancements" width="600">
-      <p>Protect systems with best-practice controls and monitoring.</p>
-    </section>
+  <footer class="site-footer">
+    <p> 2025 CraftNet Solutions. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
 
-    <section>
-      <h3>Employee Training</h3>
-      <img src="https://images.unsplash.com/photo-1581092580497-3a7c3a22c5a1" alt="Employee Training" title="Employee Training" width="600">
-      <p>Upskill staff to reduce risk and improve productivity.</p>
-    </section>
-  </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Support — Craftnet Solutions</title>
+  <meta name="description" content="Find support and answers to common client questions at Craftnet Solutions.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">CraftNet Solutions</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="support.html" class="active">Client Support</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <!-- CLIENT SUPPORT SECTION -->
-  <section id="support">
-    <h2>Client Support</h2>
-    <p>Find answers to common questions and useful resources.</p>
-    <img src="https://images.unsplash.com/photo-1581091010838-27c74cb3b504" alt="Support" title="Client Support" width="600">
-    <h3>FAQs</h3>
-    <ul>
-      <li>How do I log a ticket?</li>
-      <li>What are your support hours?</li>
-      <li>How quickly do you respond?</li>
-    </ul>
-  </section>
+  <main class="container">
+    <h1>Client Support & FAQ</h1>
 
-  <!-- CONTACT SECTION -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <img src="https://images.unsplash.com/photo-1581091010119-7f4b2c0f6e39" alt="Contact" title="Contact Us" width="600">
-    <p>Email: hello@craftnet.example</p>
-    <p>Phone: +27 00 000 0000</p>
-    <h3>Enquiry</h3>
+    <details>
+      <summary>Why do I need a professional website?</summary>
+      <p>A website is the cornerstone of your digital presence. Without one, businesses lose credibility and visibility.</p>
+    </details>
+
+    <details>
+      <summary>What security measures do you use?</summary>
+      <p>We apply <span class="tooltip" data-tip="SSL = Secure Sockets Layer for encryption">SSL</span> certificates, firewalls, and data protection protocols.</p>
+    </details>
+
+    <a href="#popup-support" class="btn primary">Learn More About Support</a>
+    <div id="popup-support" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Our Client Support</h2>
+        <p>We provide ongoing support, including troubleshooting, monitoring, and training refreshers.
+             Our team ensures that your IT systems remain secure and reliable.
+            This helps with keeping technology sustainable at all times.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Craftnet Solutions — All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Craftnet Solutions</title>
+  <meta name="description" content="Contact Craftnet Solutions for IT services including network upgrades, security enhancements, and staff training.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">CraftNet Solutions</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="support.html">Client Support</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you. Reach out to Craftnet Solutions today.</p>
+
     <form>
-      <label>Name <input type="text" name="name"></label><br>
-      <label>Email <input type="email" name="email"></label><br>
-      <label>Message <textarea name="message"></textarea></label><br>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-</main>
+      <label for="name">Full name</label>
+      <input id="name" type="text" required>
 
-<hr>
-<footer>
-  <p>&copy; 2025 CraftNet Solutions | Email: info@craftnet.com | Phone: +27 11 555 1234</p>
-</footer>
+      <label for="email">Email</label>                  
+      <input id="email" type="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" required></textarea>
+
+      <button type="submit" class="btn primary">Send Inquiry</button>
+    </form>
+
+    <a href="#popup-contact" class="btn primary">View Business Hours</a>
+    <div id="popup-contact" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Business Hours</h2>
+        <p>Monday – Friday: 9:00 – 17:00<br>Saturday & Sunday: Closed</p>
+        <p>Email:Craftnet solutions@gmail.com</p>
+         <p>+27 67 555 2930</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Craftnet Solutions — All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
 
